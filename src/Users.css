@@ -1,0 +1,13 @@
+.users {
+    width: 80%;
+    height: 80%;
+    margin-right: 5px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #6050e4;
+    border: 2;
+    cursor: pointer;
+}
+

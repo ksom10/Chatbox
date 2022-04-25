@@ -1,0 +1,15 @@
+.sub {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.exit {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1;
+}

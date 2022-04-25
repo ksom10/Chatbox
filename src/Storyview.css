@@ -1,0 +1,66 @@
+.storyview {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.storyview_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+
+.storyview_users {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.storyview_home{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    cursor: pointer;
+    
+}
+
+.storyview > h3 {
+    margin-left: 5px;
+}
+
+.storyview_subscription{
+    height: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.storyview_sub {
+    width: 45%;
+    height: 90%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+    .storyview{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .storyview_subscription {
+        height: 90%;
+    }
+
+    .storyview_sub{
+        height: 60%;
+    }
+
+    .storyview_users {
+        justify-content: center;
+    }
+}
